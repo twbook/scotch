@@ -1,0 +1,8 @@
+   steps:
+    - name: Hello world action step
+      id: hello
+      uses: twbook/scotch
+      uses: twbook/scotch@v1
+      with:
+        who-to-greet: 'Thomas'
+    # Use the output from the `hello` step
