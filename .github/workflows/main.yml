@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: twbook/scotch@v1
+      uses: twbook/scotch
       with:
         who-to-greet: 'Thomas'
     # Use the output from the `hello` step
